@@ -13,16 +13,13 @@ namespace LibraryManagementSystem
         public string Title { get; set; }   
         public string Author { get; set; }
         public bool IsBorrowed { get; set; }
-        public Book()
-        {
-            IsBorrowed = false;
-        }
+
         public Book( string title, string author)
         {
             Id++;
             Title = title;
             Author = author;
-
+            IsBorrowed = false;
         }
         public bool Borrow()
         {
