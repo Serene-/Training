@@ -8,15 +8,13 @@ namespace LibraryManagementSystem
 {
     public class Book
     {
-        private int id=0;
-        public int Id { get { return id; } private set { Id = id; } }
+        public int Id { get; set; }
         public string Title { get; set; }   
         public string Author { get; set; }
         public bool IsBorrowed { get; set; }
 
         public Book( string title, string author)
         {
-            Id++;
             Title = title;
             Author = author;
             IsBorrowed = false;

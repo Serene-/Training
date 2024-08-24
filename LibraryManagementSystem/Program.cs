@@ -61,7 +61,7 @@ namespace LibraryManagementSystem
                         }
                     default:
                         {
-                            Console.WriteLine("Wrong input");
+                            Console.WriteLine("Exit");
                             break;
                         }
                 }

@@ -15,14 +15,18 @@ namespace LibraryManagementSystem
         }
         public void AddBook(Book book)
         {
+            book.Id = books.Count + 1;
             books.Add(book);
         }
         public string ListBooks()
         {
             StringBuilder sb = new StringBuilder();
             foreach(Book book in books)
-            { 
-                sb.AppendLine($"{book.Title} {book.Author} {book.IsBorrowed}");
+            {
+                string isBorrowed;
+                if (book.IsBorrowed) isBorrowed = "borrowed";
+                else isBorrowed = "not borrowed";
+                sb.AppendLine($"{book.Id}. {book.Title} {book.Author} is {isBorrowed}.");
             }
             return sb.ToString();
         }
@@ -30,7 +34,7 @@ namespace LibraryManagementSystem
         {
             Book searchedBook = books.FirstOrDefault(x => x.Title == title);
             StringBuilder sb = new StringBuilder();
-            if (searchedBook != null) sb.Append($"{searchedBook.Title} {searchedBook.Author} {searchedBook.IsBorrowed}");
+            if (searchedBook != null) sb.Append($"{searchedBook.Id}. {searchedBook.Title} {searchedBook.Author} ");
             else sb.Append("The book is not found");
             return sb.ToString();
         }
