@@ -5,9 +5,13 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingNumbers", "PrintingNumbers\PrintingNumbers.csproj", "{248601BE-1014-4705-8089-A510D4F9DF03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{302DC413-BF97-4A1E-8FFA-5A4668793650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{302DC413-BF97-4A1E-8FFA-5A4668793650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem", "LibraryManagementSystem\LibraryManagementSystem.csproj", "{7E912437-A047-4362-B94A-FD2E00FAA5A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagementSystem", "LibraryManagementSystem\LibraryManagementSystem.csproj", "{7E912437-A047-4362-B94A-FD2E00FAA5A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAndReplace", "FindAndReplace\FindAndReplace.csproj", "{15B4D3F2-C9AE-49D0-BEFD-7FBBB8066A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{156F97A4-BB43-43D0-B7D7-71575D2BF4FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{7E912437-A047-4362-B94A-FD2E00FAA5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E912437-A047-4362-B94A-FD2E00FAA5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E912437-A047-4362-B94A-FD2E00FAA5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B4D3F2-C9AE-49D0-BEFD-7FBBB8066A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B4D3F2-C9AE-49D0-BEFD-7FBBB8066A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B4D3F2-C9AE-49D0-BEFD-7FBBB8066A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B4D3F2-C9AE-49D0-BEFD-7FBBB8066A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156F97A4-BB43-43D0-B7D7-71575D2BF4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156F97A4-BB43-43D0-B7D7-71575D2BF4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156F97A4-BB43-43D0-B7D7-71575D2BF4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156F97A4-BB43-43D0-B7D7-71575D2BF4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
