@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintingNumbers", "PrintingNumbers\PrintingNumbers.csproj", "{248601BE-1014-4705-8089-A510D4F9DF03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.PrintingNumbers", "PrintingNumbers\1.PrintingNumbers.csproj", "{248601BE-1014-4705-8089-A510D4F9DF03}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{302DC413-BF97-4A1E-8FFA-5A4668793650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Palindrome", "Palindrome\2.Palindrome.csproj", "{302DC413-BF97-4A1E-8FFA-5A4668793650}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagementSystem", "LibraryManagementSystem\LibraryManagementSystem.csproj", "{7E912437-A047-4362-B94A-FD2E00FAA5A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.LibraryManagementSystem", "LibraryManagementSystem\3.LibraryManagementSystem.csproj", "{7E912437-A047-4362-B94A-FD2E00FAA5A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindAndReplace", "FindAndReplace\FindAndReplace.csproj", "{15B4D3F2-C9AE-49D0-BEFD-7FBBB8066A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.FindAndReplace", "FindAndReplace\5.FindAndReplace.csproj", "{15B4D3F2-C9AE-49D0-BEFD-7FBBB8066A0C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangman", "Hangman\Hangman.csproj", "{156F97A4-BB43-43D0-B7D7-71575D2BF4FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Hangman", "Hangman\4.Hangman.csproj", "{156F97A4-BB43-43D0-B7D7-71575D2BF4FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagementSystem", "ContactManagementSystem\ContactManagementSystem.csproj", "{3184ACBC-96CD-43F0-BBD7-F2297D61180B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.ContactManagementSystem", "ContactManagementSystem\6.ContactManagementSystem.csproj", "{3184ACBC-96CD-43F0-BBD7-F2297D61180B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
