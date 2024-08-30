@@ -63,5 +63,6 @@ namespace _7.StudentGradeSystem
             averageGrade /= count;
             return averageGrade;
         }
+
     }
 }
