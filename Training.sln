@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.StudentGradeSystem", "7.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemovingDublicates", "RemovingDublicates\RemovingDublicates.csproj", "{E49B0F0E-CC60-44A7-9676-63EC3AA4DA8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoList", "MergeTwoList\MergeTwoList.csproj", "{FCD56705-0148-41BF-A6F2-B794F3FE39DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E49B0F0E-CC60-44A7-9676-63EC3AA4DA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E49B0F0E-CC60-44A7-9676-63EC3AA4DA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E49B0F0E-CC60-44A7-9676-63EC3AA4DA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD56705-0148-41BF-A6F2-B794F3FE39DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD56705-0148-41BF-A6F2-B794F3FE39DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD56705-0148-41BF-A6F2-B794F3FE39DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD56705-0148-41BF-A6F2-B794F3FE39DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
